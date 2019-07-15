@@ -1,6 +1,6 @@
 {
   "name": "umi-plugin-log",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "umi event-class-api 简单的展示umi的生命周期",
   "authors": {
     "name": "xiaohuoni",
