@@ -1,0 +1,29 @@
+{
+  "name": "umi-plugin-log",
+  "version": "0.0.1",
+  "description": "umi event-class-api 简单的展示umi的生命周期",
+  "authors": {
+    "name": "xiaohuoni",
+    "email": "448627663@qq.com"
+  },
+  "repository": "alitajs/umi-plugin-log",
+  "peerDependencies": {
+    "umi": "2.x"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "CLEAR_CONSOLE='none' PAGES_PATH='example' umi dev",
+    "build": "umi-tools build",
+    "prepublishOnly": "npm run build && np --no-cleanup --yolo --no-publish"
+  },
+  "devDependencies": {
+    "np": "^3.0.4",
+    "umi-plugin-types": "^0.3.2",
+    "umi-tools": "*"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "license": "MIT"
+}
